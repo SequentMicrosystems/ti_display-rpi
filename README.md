@@ -30,9 +30,14 @@ Install the command:
 ~/ti_display-rpi$ sudo make install
 ```
 
-Now you can access all the functions of the card through the command "ti". Use -h option for help:
+Now you can access all the functions of the card through the command "tidisp". Use -h option for help:
 ```bash
 ~$ tidisp -h
+```
+
+or test the LED'S:
+```bash
+~$ tidisp testl
 ```
 
 If you clone the repository any update can be made with the following commands:
